@@ -2,16 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My First Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>S.Mahdi Al Hasan</title>
+  <!-- meta tags, responsive, CSS links etc. -->
 </head>
 <body>
-  <h1>🚀 Welcome to My Website!</h1>
-  <p>This is my first GitHub Pages site.</p>
-
-  <button id="clickBtn">Click Me</button>
-  <p id="message"></p>
-
-  <script src="script.js"></script>
+  
+  <!-- Navigation / Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>S.Mahdi Al Hasan</h1>
+      <h2>CSE, BUET</h2>
+      <p>From Dhaka, Bangladesh</p>
+      <p>Email: <a href="mailto:...">...</a></p>
+      <a href="#projects" class="btn">Explore My Portfolio</a>
+    </div>
+    <div class="hero-image">
+      <!-- decorative images / shapes -->
+    </div>
+  </section>
+  
+  <!-- Counters / Stats -->
+  <section class="stats">
+    <div class="stat-item">
+      <span class="count">X</span>
+      <span class="label">Years of Experience</span>
+    </div>
+    <div class="stat-item">
+      <span class="count">Y</span>
+      <span class="label">Projects Completed</span>
+    </div>
+  </section>
+  
+  <!-- Specializations / Services -->
+  <section id="specializations" class="services">
+    <div class="service-item">
+      <h3>Web Development</h3>
+      <p>...</p>
+    </div>
+    <div class="service-item">
+      <h3>Problem Solving</h3>
+      <p>...</p>
+    </div>
+    <div class="service-item">
+      <h3>Learner</h3>
+      <p>...</p>
+    </div>
+    <div class="service-item">
+      <h3>Team Work</h3>
+      <p>...</p>
+    </div>
+  </section>
+  
+  <!-- Skills / Technologies -->
+  <section id="skills">
+    <h2>Technologies I Use</h2>
+    <div class="skills-grid">
+      <!-- Repeated skill items -->
+      <div class="skill-item"><img src="..."><span>Python</span></div>
+      <div class="skill-item"><img src="..."><span>JavaScript</span></div>
+      <!-- etc. -->
+    </div>
+  </section>
+  
+  <!-- Portfolio / Projects -->
+  <section id="projects" class="portfolio">
+    <h2>Featured Projects</h2>
+    <div class="project-items">
+      <!-- each project -->
+      <div class="project">
+        <img src="...">
+        <div class="project-info">
+          <span class="year">2025</span>
+          <h3><a href="...">Space Shooter Game</a></h3>
+          <p>Type: Game / Technology used etc.</p>
+        </div>
+      </div>
+      <!-- more projects -->
+    </div>
+  </section>
+  
+  <!-- News / Blog -->
+  <section id="news">
+    <h2>News or Posts</h2>
+    <!-- list of posts / updates -->
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Phone: ...</p>
+      <p>Email: ...</p>
+    </div>
+    <form action="..." method="post">
+      <label>Name</label><input type="text" name="name">
+      <label>Email</label><input type="email" name="email">
+      <label>Phone</label><input type="text" name="phone">
+      <label>Message</label><textarea name="message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <!-- Social Links / Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="...">X / Twitter</a>
+      <a href="...">LinkedIn</a>
+      <a href="...">Facebook</a>
+      <a href="...">Instagram</a>
+    </div>
+    <div class="useful-links">
+      <!-- maybe repeat nav or links to projects, about, news -->
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe for Updates</h3>
+      <form>
+        <input type="email" name="subscribe_email" placeholder="Your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="copyright">
+      &copy; Beginners Hut
+    </div>
+  </footer>
+  
 </body>
 </html>
